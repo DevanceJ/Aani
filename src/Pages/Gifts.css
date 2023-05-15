@@ -1,0 +1,53 @@
+body{
+    background-color: #f5f5f5;
+    font-family: 'Karla', sans-serif;
+    color: #4D4D4D;
+}
+
+.giftHead{
+    margin: 2% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.giftHead h1{
+    font-weight: 600;
+    color: #000;
+    font-family: 'Cormorant Garamond', serif;
+}
+.giftHead p{
+    margin-top: 10px;
+    font-weight: 200;
+    font-style: italic;   
+}
+
+.displayGift{
+    margin: 5% 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cardGift{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cardGift h1{
+    font-weight: 200;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.cardGift img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.cardGift img:hover{
+    transform: translate(0, -10px);
+    transition: transform 0.3s linear;
+}

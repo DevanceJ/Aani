@@ -1,0 +1,29 @@
+.heroSection{
+    position: relative;
+}
+.heroSection img{
+    width: 100%;
+    object-fit: cover;
+}
+.heroText{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 4%;
+}
+.heroText h1, .heroText p{
+    padding: 25px 0px 25px 0px;
+}
+.shopBtn{
+    background-color: transparent;
+    color: #fff;
+    font-family: 'Cormorant SC', serif;
+    border: 1px solid #E1DBD7;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.shopBtn:hover{
+    background-color: #E1DBD7;
+    color: #000;
+    transition: all 0.3s ease-in-out;
+}

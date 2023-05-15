@@ -1,0 +1,41 @@
+.aboutBlack{
+    margin-top: 3%;
+    width: 100vw;
+    background-color: #0C0606;
+    display: flex;
+
+}
+.aboutBlack .aboutBlackLeft{
+    width: 50%;
+    flex: 0 0 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 2%;
+}
+.aboutBlackRight{
+    width: 50%;
+    flex: 0 0 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 2%;
+    color: #fff;
+}
+.aboutBtn{
+    background-color: transparent;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Cormorant SC', serif;
+    border: 1px solid #E1DBD7;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 20%;
+    margin-top: 5%;
+}
+.aboutBtn:hover{
+    background-color: #E1DBD7;
+    color: #000;
+    transition: all 0.3s ease-in-out;
+}
