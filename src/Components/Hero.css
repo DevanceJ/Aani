@@ -1,5 +1,8 @@
 .heroSection{
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .heroSection img{
     width: 100%;
@@ -26,4 +29,43 @@
     background-color: #E1DBD7;
     color: #000;
     transition: all 0.3s ease-in-out;
+}
+@media (max-width: 990px){
+    .heroText{
+        top: 30%;
+    }
+    .heroText h1{
+        font-size: 30px;
+    }
+    .heroText p{
+        font-size: 16px;
+    }
+}
+@media (max-width: 700px){
+    .heroText{
+        top: unset;
+        left: unset;
+    }
+}
+@media (max-width: 540px){
+   
+    .heroText h1{
+        font-size: 20px;
+    }
+    .heroText p{
+        font-size: 14px;
+    }
+    .shopBtn{
+        display: none;
+    }
+}
+@media (max-width: 400px){
+    .heroText p{
+        padding: 5px 0px 5px 0px;
+    }
+    .heroText h1{
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+        padding-top: 20px;
+        
+    }
 }

@@ -23,11 +23,13 @@ const Navbar = () => {
         <li> <Link>NEW REALEASES</Link></li>
         <li> <Link to="/gifts">GIFTS</Link></li>
       </ul>
+      <Link to="/">
         <h2 className="name">AANI</h2>
+      </Link>
         <ul className='nav-links navRight'>
             <li className='searchLi'><input className='navSearch' placeholder='Search' type="search" /><FaSearch/></li>
-            <li><AiOutlineHeart/></li>
-            <li><BsBagFill/></li>
+            <li className='wishlist'><AiOutlineHeart/></li>
+            <li className='cart'><BsBagFill/></li>
             <li><AiOutlineUser/></li>
             <div className="mobile" onClick={handleClick}>
               {isNavExpanded ? <IoClose/> : <IoMenu/>}

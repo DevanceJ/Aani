@@ -1,5 +1,3 @@
-
-
 .main{
     border-bottom: 1px solid #BBB3AF;
 }
@@ -10,6 +8,7 @@
 }
 .name{
     font-family: 'Cormorant SC', serif;
+    color: #000;
 }
 .nav{
     width: 100%;
@@ -47,6 +46,7 @@
     border: none;
     border-bottom: 1px solid black;
     outline: none;
+    padding: 0px 10px;
 }
 .mobile{
     cursor: pointer;
@@ -83,5 +83,22 @@
     }
     .nav{
         justify-content: space-between;
+    }
+}
+@media (max-width: 540px) {
+    .cart, .wishlist{
+        display: none;
+    }
+}
+@media (max-width: 400px) {
+    .navSearch{
+        width: 100px;
+        
+    }
+}
+@media (max-width: 350px) {
+    .navSearch{
+        width: 50px;
+        
     }
 }

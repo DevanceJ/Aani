@@ -26,6 +26,7 @@ body{
     margin: 5% 0;
     display: flex;
     justify-content: space-evenly;
+    gap: 20px;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -50,4 +51,25 @@ body{
 .cardGift img:hover{
     transform: translate(0, -10px);
     transition: transform 0.3s linear;
+}
+@media (max-width: 990px){
+    .cardGift img{
+        width: 300px;
+        height: 300px;
+    }
+}
+@media (max-width: 500px){
+    .cardGift img{
+        width: 200px;
+        height: 200px;
+    }
+    .giftHead h1{
+        font-size: 25px;
+    }
+    .giftHead p{
+        font-size: 15px;
+    }
+    .cardGift h1{
+        font-size: 15px;
+    }
 }
