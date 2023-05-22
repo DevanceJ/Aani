@@ -19,9 +19,9 @@ const Navbar = () => {
     <div className="nav">
       <ul className= {isNavExpanded ? "navLeftPhone" : "navLeft nav-links"}>
         <li><img className='logo' src={logo} alt="" /></li>
-        <li><Link>JEWELLERY</Link></li>
-        <li> <Link>NEW REALEASES</Link></li>
-        <li> <Link to="/gifts">GIFTS</Link></li>
+        <li><Link onClick={handleClick}>JEWELLERY</Link></li>
+        <li> <Link onClick={handleClick}>NEW REALEASES</Link></li>
+        <li> <Link onClick={handleClick} to="/gifts">GIFTS</Link></li>
       </ul>
       <Link to="/">
         <h2 className="name">AANI</h2>
